@@ -40,4 +40,7 @@ Docker compose watch Dockerfile
 
 ### `docker compose up -d --build`
 
-<img src="./public/docker-react-stages.png" />
+Stages of docker builds
+
+Copy build folder from stage 1 and serve it with nginx 
+<img src="./public/docker-react-stages.png" width="250" height="250" />
