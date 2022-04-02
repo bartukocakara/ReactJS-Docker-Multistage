@@ -39,3 +39,5 @@ Read only from remote machine (v : ro)
 Docker compose watch Dockerfile
 
 ### `docker compose up -d --build`
+
+<img src="./public/docker-react-stages.png" />
