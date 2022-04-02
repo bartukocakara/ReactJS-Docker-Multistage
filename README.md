@@ -5,63 +5,63 @@
 
 
 
-### ```docker build .```
-## Available Scripts
+# ```docker build .```
+# Available Scripts
 
 In the project directory, you can run:
 
-### ```docker build .```
+# ```docker build .```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Access to remote machine container
-### ```docker exec -it react-app bash```
+# ```docker exec -it react-app bash```
 
 Remove container (force)
-### ```docker rm react-app -f```
+# ```docker rm react-app -f```
 
 Access folders in src file
-### ```cd /src` ### `cat App.js```
+# ```cd /src` ### `cat App.js```
 
 Syncing Local : Remote (Powershell)
 
-### ```docker run -v CHOKIDAR_USEPOLLING=true ${pwd}:/app -d -p 3000:3000 --name react-app react-image```
+# ```docker run -v CHOKIDAR_USEPOLLING=true ${pwd}:/app -d -p 3000:3000 --name react-app react-image```
 
 Syncing Local : Remote (CMD)
 
-### `docker run -v CHOKIDAR_USEPOLLING=true %cd%:/app -d -p 3000:3000 --name react-app react-image`
+# `docker run -v CHOKIDAR_USEPOLLING=true %cd%:/app -d -p 3000:3000 --name react-app react-image`
 
 Syncing Local : Remote (Linux)
 
-### ```docker run -v CHOKIDAR_USEPOLLING=true $(pwd):/app -d -p 3000:3000 --name react-app react-image```
+# ```docker run -v CHOKIDAR_USEPOLLING=true $(pwd):/app -d -p 3000:3000 --name react-app react-image```
 
 
 Read only from remote machine (v : ro)
 
-### ```docker run -e CHOKIDAR_USEPOLLING=true -v %cd%\src:/app/src:ro -d -p 3000:3000 --name react-app react-image```
+# ```docker run -e CHOKIDAR_USEPOLLING=true -v %cd%\src:/app/src:ro -d -p 3000:3000 --name react-app react-image```
 
 
 Docker compose watch Dockerfile
 
-### ```docker compose up -d --build```
+# ```docker compose up -d --build```
 
 Docker build target file by '-f' flag
 
-### ```docker build -f ./Dockerfile.dev .```
+# ```docker build -f ./Dockerfile.dev .```
 
 Docker build target file by '-f' flag -- docker compose
 
-### ```docker-compose -> services -> react-app -> build : context : . , dockerfile : Dockerfile.dev```
+# ```docker-compose -> services -> react-app -> build : context : . , dockerfile : Dockerfile.dev```
 
 Stages of docker builds
 
 Copy build folder from stage 1 and serve it with nginx 
 <img src="./public/docker-react-stages.png" width="700" height="350" />
 
-### On production Dockerfile changes latest layer
+## On production Dockerfile changes latest layer
 
-### ```npm run build```
+# ```npm run build```
 
 FROM nginx
 
