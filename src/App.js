@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log(process.env)
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit meee dsadasddsada1 bartu kocakara<code>src/App.js</code> and save to reload.
+          Edit me<code>src/App.js </code> and save to reload.
         </p>
         <h4>{`Hello ${process.env.REACT_APP_NAME}`}</h4>
         <a

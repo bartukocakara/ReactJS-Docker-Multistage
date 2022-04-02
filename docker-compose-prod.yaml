@@ -1,0 +1,15 @@
+version: "3"
+services:
+  react-app:
+    # stdin_open: true
+    # tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=bartu-prod
+    ports:
+      - "8080:80"
+    # environment:
+    #   - REACT_APP_NAME=Bartu-prod
+    #   - CHOKIDAR_USEPOLLING=true
