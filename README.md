@@ -1,6 +1,6 @@
 # Docker + ReactJS tutorial: Development to Production workflow + multi-stage builds + docker compose
 
-# REFERENCE <a target="_blank" href="https://www.youtube.com/watch?v=3xDAU5cvi5E">https://www.youtube.com/watch?v=3xDAU5cvi5E</a>
+### REFERENCE <a target="_blank" href="https://www.youtube.com/watch?v=3xDAU5cvi5E">https://www.youtube.com/watch?v=3xDAU5cvi5E</a>
 ## !! Warning REACT Hotreload doesn't work somehow :/
 
 
