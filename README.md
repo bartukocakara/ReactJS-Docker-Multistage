@@ -1,5 +1,8 @@
 # Docker + ReactJS tutorial: Development to Production workflow + multi-stage builds + docker compose
 
+## !! Warning REACT Hotreload doesn't work somehow :/
+
+### ```docker build .```
 ## Available Scripts
 
 In the project directory, you can run:
